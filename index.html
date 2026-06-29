@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CyberGuard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+    <h2>CyberGuard</h2>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h1>Cyber Security Solutions</h1>
+
+    <p>Protect your business and personal data from cyber threats.</p>
+
+    <button onclick="showMessage()">Get Started</button>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+
+    <p>
+        CyberGuard is dedicated to protecting businesses and individuals from cyber threats.
+        We provide advanced security solutions including network protection, malware detection,
+        password security, and cloud security.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+
+<div class="card">
+<h3>🔒 Network Security</h3>
+<p>Protect your network from cyber attacks.</p>
+</div>
+
+<div class="card">
+<h3>🛡 Malware Protection</h3>
+<p>Detect and remove harmful software.</p>
+</div>
+
+<div class="card">
+<h3>🔑 Password Security</h3>
+<p>Create strong passwords and stay secure.</p>
+</div>
+
+<div class="card">
+<h3>☁ Cloud Security</h3>
+<p>Keep your cloud data safe and protected.</p>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+
+    <form>
+        <input type="text" placeholder="Enter your name"><br><br>
+
+        <input type="email" placeholder="Enter your email"><br><br>
+
+        <textarea placeholder="Your message"></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<h2>Password Strength Checker</h2>
+
+<input type="password" id="password" placeholder="Enter your password">
+
+<br><br>
+
+<button onclick="checkPassword()">Check Strength</button>
+
+<p id="result"></p>
+
+<footer>
+    <p>© 2026 CyberGuard | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
