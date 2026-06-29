@@ -1,5 +1,5 @@
 function showMessage() {
-    alert("Welcome to CyberGuard! Stay Safe Online.");
+    alert("Welcome to CyberShield! Stay Safe Online.");
 }
 
 function checkPassword() {
